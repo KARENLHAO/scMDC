@@ -1,4 +1,4 @@
-#This repository comes from [xiaolin226](https://github.com/xianglin226/scMDC). We just updated the code dependencies. The code after the updated dependencies is not yet complete.
+# This repository comes from [xiaolin226](https://github.com/xianglin226/scMDC). We just updated the code dependencies. The code after the updated dependencies is not yet complete.
 # scMDC
 Single Cell Multi-omics deep clustering (**scMDC v1.0.1**)
 
