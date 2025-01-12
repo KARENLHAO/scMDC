@@ -17,22 +17,18 @@ We develop a novel multimodal deep learning method, scMDC, for single-cell multi
 ![Model structure](https://github.com/xianglin226/scMDC/blob/master/src/fig1_.png?raw=true)  
 
 ## <a name="Dependencies"></a>Dependencies
-Python 3.8.1
+Python 3.12.8
 
-Pytorch 1.6.0
+pytorch==2.5.1 torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
 
-Scanpy 1.6.0
+Scanpy 1.10.4
 
-SKlearn 0.22.1
+SKlearn 1.6.1
 
-Numpy 1.18.1
+Numpy 2.0.2
 
-h5py 2.9.0  
+h5py 3.12.1 
 
-All experiments of scMDC in this study are conducted on Nvidia Tesla P100 (16G) GPU.
-We suggest to install the dependencies in a conda environment (conda create -n scMDC).  
-It takes few minutes to install the dependencies.  
-scMDC takes about 3 minutes to cluster a dataset with 5000 cells.  
 
 ## <a name="Usage"></a>Usage  
 1) Prepare the input data in h5 format. (See readme in 'dataset' folder)  
